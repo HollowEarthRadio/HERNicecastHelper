@@ -16,8 +16,10 @@ switch back to having titles pulled from iTunes.
 2. Allow DJ's to switch to the 'Off Hours' server. At Hollow Earth Radio, we are moving to using a linux/icecast solution for our Off Hours (non live dj)
 hours, and we wanted to make this switch to the automated server easy for DJ's. As of the latest version of this software, DJ's should be able to click a 
 button to 'switch to off hours' and HERNicecastHelper will run a ruby script at 30 second intervals to pull the track titles out of an internal icecast/airtime server. 
-In a future version, clicking the 'off hours' button will also automatically set iTunes to a playlist file that is just a stream of the icecast/airtime broadcast and relay
-that audio signal. For now, DJ's will have to click on the playlist themselves until this has been scripted. 
+<strike>In a future version, clicking the 'off hours' button will also automatically set iTunes to a playlist file that is just a stream of the icecast/airtime broadcast and relay
+that audio signal. For now, DJ's will have to click on the playlist themselves until this has been scripted. </strike>
+
+Fixed it so that the placeholder file and the off hours stream playlist are invoked when you click on using manual titles or off hours buttons respectively.
 
 ## Other Release Notes ##
 

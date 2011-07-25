@@ -78,6 +78,19 @@
 		[self.songTitle setEnabled:NO];
 		[self.changeTitleButton setEnabled:NO];
 		[self.manualTitlesButton setEnabled:NO];
+		
+
+		NSDictionary *scriptError = [[NSDictionary alloc] init]; 
+		
+		/* Create the Applescript to run with the filename and comment string... */ 
+		NSString *playOffHours = @"tell application \"iTunes\" to play track 1 of user playlist \"off hours\"";
+		NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playOffHours]; 
+		
+		/* Run the script! */ 
+		if(![appleScript executeAndReturnError:&scriptError]) 
+			NSLog(@"%@",[scriptError description]); 
+
+		
 		[self parseOffHoursTitles];
 		[self writeToNowPlayingFile:[self.artistName stringValue] withTitle:[self.songTitle stringValue]];
 		[self startStopBroadcast];
@@ -105,6 +118,16 @@
 		[self.manualTitlesButton setTitle:@"Switch Back To Using iTunes"];
 		[self writeToNowPlayingFile:[self.artistName stringValue] withTitle:[self.songTitle stringValue]];
 		[self startStopBroadcast];
+		
+		NSDictionary *scriptError = [[NSDictionary alloc] init]; 
+		
+		/* Create the Applescript to run with the filename and comment string... */ 
+		NSString *playPlaceholder = @"tell application \"iTunes\" to play track 1 of user playlist \"placeholder\"";
+		NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playPlaceholder]; 
+		
+		/* Run the script! */ 
+		if(![appleScript executeAndReturnError:&scriptError]) 
+			NSLog(@"%@",[scriptError description]); 
 	}
 	else {
 		[self.offHoursTitlesButton setEnabled:YES];

@@ -1,0 +1,514 @@
+THERNicecastHelper
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Info.plist HERNicecastHelper/HERNicecastHelper-Info.plist
+cProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper normal x86_64
+cLd /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper normal i386
+cCreateUniversalBinary /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper normal "x86_64 i386"
+cGenerateDSYMFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+cCompileXIB /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib
+cCopyStringsFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/InfoPlist.strings HERNicecastHelper/en.lproj/InfoPlist.strings
+cCpResource HERNicecastHelper/en.lproj/Credits.rtf build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf
+cCpResource trans-logo.icns build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns
+cCpResource scriptResources/icecast_title_ripper.rb build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb
+cCpResource scriptResources/icecaster.sh build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh
+cTouch /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004DEEC2A000000000000000EE
+t1307493024
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004DE610A00000000000002470
+t1306923168
+s9328
+
+N/Users/boontdustie/xcode/HERNicecastHelper/../../../../System/Library/Frameworks/Security.framework/Security
+c000000004E272E5B0000000000790E60
+t1311190619
+s7933536
+
+N/Users/boontdustie/xcode/HERNicecastHelper/../../../../System/Library/Frameworks/SecurityFoundation.framework/SecurityFoundation
+c000000004E272E5B00000000001C08F0
+t1311190619
+s1837296
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m
+c000000004E2DCC0B0000000000000712
+t1311624203
+s1810
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m
+c000000004C7B2A8C000000000000061F
+t1283140236
+s1567
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m
+c000000004CCE320D0000000000002620
+t1288581645
+s9760
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Prefix.pch
+c000000004DB743D700000000000000A2
+t1303856087
+s162
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m
+c000000004E2DCC4800000000000014E8
+t1311624264
+s5352
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/Credits.rtf
+c000000004DB743D700000000000001B4
+t1303856087
+s436
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/InfoPlist.strings
+c000000004DB743D7000000000000002D
+t1303856087
+s45
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib
+c000000004E2DC875000000000002A7CF
+t1311623285
+s174031
+
+N/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m
+c000000004DB743D700000000000000FD
+t1303856087
+s253
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper.LinkFileList
+c000000004E2DD1DF00000000000002EC
+t1311625695
+s748
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper.LinkFileList
+c000000004E2DD1DF00000000000002F6
+t1311625695
+s758
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Info.plist
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns
+t2
+s0
+
+N/Users/boontdustie/xcode/HERNicecastHelper/scriptResources/icecast_title_ripper.rb
+c000000004E2DCCD70000000000000515
+t1311624407
+s1301
+
+N/Users/boontdustie/xcode/HERNicecastHelper/scriptResources/icecaster.sh
+c000000004E2CD9970000000000000043
+t1311562135
+s67
+
+N/Users/boontdustie/xcode/HERNicecastHelper/trans-logo.icns
+c000000004DC32C0C0000000000028DB4
+t1304636428
+s167348
+
+N/var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth
+t2
+s0
+
+NHERNicecastHelper/HERNicecastHelper-Info.plist
+c000000004DC3340B00000000000003F9
+t1304638475
+s1017
+
+CBuild AST from /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m
+r0
+
+CBuild AST from /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m
+r0
+
+CBuild AST from /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m
+r0
+
+CBuild AST from /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m
+r0
+
+CBuild AST from /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5e687e5f09deb341^c11a975f09deb341^---0#1#0#--18"Check dependencies
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.893190
+e333318500.026727
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.mcdcce46309deb341^47aa176409deb341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m0000000000000000^2524"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o HERNicecastHelper/HERNicecastHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelperAppDelegate.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.922271
+e333318499.990865
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m6133ec6309deb341^b1a7fd6309deb341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m0000000000000000^2522"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/KillController.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318500.028128
+e333318500.157204
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.mb856076409deb341^94be2c6409deb341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m0000000000000000^2617"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSString+SeparatingIntoComponents.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.992193
+e333318500.246952
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.mfc19fe6309deb341^19393f6409deb341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m0000000000000000^2597"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/NSTask+OneLineTasksWithOutput.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.857845
+e333318499.891816
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m48c5db6309deb341^164ce46309deb341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m0000000000000000^2404"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o HERNicecastHelper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/main.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.336261
+e333318499.920948
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m7f32566309deb341^4dc0eb6309deb341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m0000000000000000^2536"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o HERNicecastHelper/HERNicecastHelperAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelperAppDelegate.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperAppDelegate.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.336298
+e333318499.847575
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m4833566309deb341^200bd96309deb341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m0000000000000000^2534"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/KillController.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/KillController.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.849016
+e333318500.103372
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m5187d96309deb341^0c921a6409deb341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m0000000000000000^2629"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSString+SeparatingIntoComponents.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.828471
+e333318500.242901
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.mab3dd46309deb341^ba2c3e6409deb341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m0000000000000000^2609"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/NSTask+OneLineTasksWithOutput.o
+
+CCompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318499.335680
+e333318499.856403
+r1
+xCompileC
+xbuild/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m8d08566309deb341^164ddb6309deb341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m0000000000000000^2416"CompileC build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o HERNicecastHelper/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -include /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch -MMD -MT dependencies -MF /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.d -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/main.m -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib
+s333318500.488907
+e333318502.629078
+r1
+xCompileXIB
+x/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xibe1437d6409deb341^460aa16609deb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib0000000000000000^505"CompileXIB HERNicecastHelper/en.lproj/MainMenu.xib    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/MainMenu.nib /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk
+
+CCopyStringsFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/InfoPlist.strings HERNicecastHelper/en.lproj/InfoPlist.strings
+s333318500.488910
+e333318500.494306
+r1
+xCopyStringsFile
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/InfoPlist.strings
+xHERNicecastHelper/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy HERNicecastHelper/en.lproj/InfoPlist.stringseb547d6409deb341^6e8b7e6409deb341^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/InfoPlist.strings0000000000000000^438"CopyStringsFile build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/InfoPlist.strings HERNicecastHelper/en.lproj/InfoPlist.strings    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj -- HERNicecastHelper/en.lproj/InfoPlist.strings
+
+CCpResource HERNicecastHelper/en.lproj/Credits.rtf build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf
+s333318500.488916
+e333318500.493089
+r1
+xCpResource
+xHERNicecastHelper/en.lproj/Credits.rtf
+xbuild/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtfe7517d6409deb341^153b7e6409deb341^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf00f4dc3fdcffdf42^485"CpResource HERNicecastHelper/en.lproj/Credits.rtf build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/en.lproj/Credits.rtf /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/en.lproj
+
+CCpResource scriptResources/icecast_title_ripper.rb build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb
+s333318500.494345
+e333318500.496920
+r1
+xCpResource
+xscriptResources/icecast_title_ripper.rb
+xbuild/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb30a17e6409deb341^d5407f6409deb341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb00f4dc3fdcffdf42^481"CpResource scriptResources/icecast_title_ripper.rb build/Release/HERNicecastHelper.app/Contents/Resources/icecast_title_ripper.rb    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/boontdustie/xcode/HERNicecastHelper/scriptResources/icecast_title_ripper.rb /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources
+
+CCpResource scriptResources/icecaster.sh build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh
+s333318500.495523
+e333318500.497740
+r1
+xCpResource
+xscriptResources/icecaster.sh
+xbuild/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sheaea7e6409deb341^4c6b7f6409deb341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh00f4dc3fdcffdf42^448"CpResource scriptResources/icecaster.sh build/Release/HERNicecastHelper.app/Contents/Resources/icecaster.sh    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/boontdustie/xcode/HERNicecastHelper/scriptResources/icecaster.sh /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources
+
+CCpResource trans-logo.icns build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns
+s333318500.489168
+e333318500.495584
+r1
+xCpResource
+xtrans-logo.icns
+xbuild/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icnse2567d6409deb341^98de7e6409deb341^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns00f4dc3fdcffdf42^425"CpResource trans-logo.icns build/Release/HERNicecastHelper.app/Contents/Resources/trans-logo.icns    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/boontdustie/xcode/HERNicecastHelper/trans-logo.icns /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Resources
+
+CCreateUniversalBinary /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper normal "x86_64 i386"
+s333318500.314105
+e333318500.339057
+r1
+xCreateUniversalBinary
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+xnormal
+xx86_64 i386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Create universal binary /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelperb379506409deb341^4bcd566409deb341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper00f4dc3fdcffdf42^596"CreateUniversalBinary build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper normal "x86_64 i386"    cd /Users/boontdustie/xcode/HERNicecastHelper    /usr/bin/lipo -create /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper -output /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+
+CGenerateDSYMFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+s333318500.346272
+e333318500.480761
+r1
+xGenerateDSYMFile
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generating /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYMa1bb586409deb341^d3127b6409deb341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM00f4dc3fdcffdf42^408"GenerateDSYMFile build/Release/HERNicecastHelper.app.dSYM build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper    cd /Users/boontdustie/xcode/HERNicecastHelper    /Developer/usr/bin/dsymutil /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper -o /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app.dSYM
+
+CLd /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper normal i386
+s333318500.253402
+e333318500.301969
+r1
+xLd
+x/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Link /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper88f7406409deb341^984c4d6409deb341^---0#0#0#--810"Ld build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper normal i386    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/boontdustie/xcode/HERNicecastHelper/build/Release -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -filelist /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Security -framework SecurityFoundation -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/i386/HERNicecastHelper
+
+CLd /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper normal x86_64
+s333318500.249845
+e333318500.307288
+r1
+xLd
+x/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Link /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelperd80c406409deb341^71a94e6409deb341^---0#0#0#--820"Ld build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper normal x86_64    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/boontdustie/xcode/HERNicecastHelper/build/Release -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -filelist /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework Security -framework SecurityFoundation -o /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/Objects-normal/x86_64/HERNicecastHelper
+
+CProcessInfoPlistFile /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Info.plist HERNicecastHelper/HERNicecastHelper-Info.plist
+s333318495.597525
+e333318495.601635
+r1
+xProcessInfoPlistFile
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Info.plist
+xHERNicecastHelper/HERNicecastHelper-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process HERNicecastHelper/HERNicecastHelper-Info.plist5f0c995f09deb341^e5449b5f09deb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Info.plist0000000000000000^498"ProcessInfoPlistFile build/Release/HERNicecastHelper.app/Contents/Info.plist HERNicecastHelper/HERNicecastHelper-Info.plist    cd /Users/boontdustie/xcode/HERNicecastHelper    builtin-infoPlistUtility HERNicecastHelper/HERNicecastHelper-Info.plist -genpkginfo /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app/Contents/Info.plist
+
+CProcessPCH /Users/boontdustie/Library/Developer/Xcode/DerivedData/HERNicecastHelper-gijhazofbxlavyeztflgllsgiifc/Index/PrecompiledHeaders/HERNicecastHelper-Prefix-grnhyqpzijflogekhnyzdmlecnfn_ast/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/boontdustie/Library/Developer/Xcode/DerivedData/HERNicecastHelper-gijhazofbxlavyeztflgllsgiifc/Index/PrecompiledHeaders/HERNicecastHelper-Prefix-gvafihqwnnkvxvfssiafxvevqtqg_ast/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318495.610173
+e333318499.827069
+r1
+xProcessPCH
+x/var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth
+xHERNicecastHelper/HERNicecastHelper-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile HERNicecastHelper/HERNicecastHelper-Prefix.pch234d9c5f09deb341^f5b8d36309deb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Prefix.pch0000000000000000^2459"ProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/i386 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Prefix.pch -o /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-aupwjhdadwhryoenlnnvyuvyftsr/HERNicecastHelper-Prefix.pch.d
+
+CProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s333318495.610170
+e333318499.328884
+r1
+xProcessPCH
+x/var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth
+xHERNicecastHelper/HERNicecastHelper-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile HERNicecastHelper/HERNicecastHelper-Prefix.pch344d9c5f09deb341^c72f546309deb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Prefix.pch0000000000000000^2465"ProcessPCH /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth HERNicecastHelper/HERNicecastHelper-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/boontdustie/xcode/HERNicecastHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-generated-files.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-own-target-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-all-target-headers.hmap -iquote /Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/HERNicecastHelper-project-headers.hmap -I/Users/boontdustie/xcode/HERNicecastHelper/build/Release/include -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources/x86_64 -I/Users/boontdustie/xcode/HERNicecastHelper/build/HERNicecastHelper.build/Release/HERNicecastHelper.build/DerivedSources -F/Users/boontdustie/xcode/HERNicecastHelper/build/Release -c /Users/boontdustie/xcode/HERNicecastHelper/HERNicecastHelper/HERNicecastHelper-Prefix.pch -o /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k0/qtq4wrfx0xbgn4bxlqtzxzg00000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/HERNicecastHelper-Prefix-ejgzxroeqskplugbwrrrdkmdovmr/HERNicecastHelper-Prefix.pch.d
+
+CTouch /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app
+s333318502.637454
+e333318502.642152
+r1
+xTouch
+x/Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app643fa36609deb341^9d63a46609deb341^---0#0#0#--193"Touch build/Release/HERNicecastHelper.app    cd /Users/boontdustie/xcode/HERNicecastHelper    /usr/bin/touch -c /Users/boontdustie/xcode/HERNicecastHelper/build/Release/HERNicecastHelper.app
+
