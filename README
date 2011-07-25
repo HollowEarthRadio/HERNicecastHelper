@@ -1,0 +1,31 @@
+###################################
+#  HERNicecastHelper
+#  www.hollowearthradio.org
+#  Garrett Kelly, 2011
+##################################
+
+HERNicecastHelper is something I have been working on in my spare time to extend functionality to Nicecast (www.rogueamoeba.net), a really
+awesome Shoutcast client for Mac OS X. There were a couple of features that we needed to add at the radio station, so I built another 
+application to interface w/ Nicecast in a way that DJ's could easily understand. The basic needs that the HERNicecastHelper fulfills:
+
+1. Allows DJ's who want to play analog recordings to still comply with the DMCA and send "track titles" while streaming. DJ's can switch to 
+an easy hand-type track title solution by the simple click of a button. While in this mode, Nicecast will pull titles from HERNicecastHelper (more
+specifically, a file that HERNicecastHelper creates in the Library/Application Support dir). When a DJ is done using manual track titles, they quickly
+switch back to having titles pulled from iTunes. 
+
+2. Allow DJ's to switch to the 'Off Hours' server. At Hollow Earth Radio, we are moving to using a linux/icecast solution for our Off Hours (non live dj)
+hours, and we wanted to make this switch to the automated server easy for DJ's. As of the latest version of this software, DJ's should be able to click a 
+button to 'switch to off hours' and HERNicecastHelper will run a ruby script at 30 second intervals to pull the track titles out of an internal icecast/airtime server. 
+In a future version, clicking the 'off hours' button will also automatically set iTunes to a playlist file that is just a stream of the icecast/airtime broadcast and relay
+that audio signal. For now, DJ's will have to click on the playlist themselves until this has been scripted. 
+
+## Other Release Notes ##
+
+* You are free to use any of this you want if it's at all helpful to you. Use at your own risk and stuff.
+  But please let me know if you have any issues, most of this was written on a time crunch. 
+
+* One hacky thing I had to do is 'stop' and 'start' the broadcast when switching between any of the modes, because of a limitation of Nicecast. Changing the 
+  track titles source can only happen when you are not broadcasting, so I call some applescript to stop/start which I believe has neglible impact on the stream. 
+  It does interfere with archiving, so be advised.
+
+
