@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE052D8E13677B57001D5C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE052D8D13677B57001D5C03 /* Cocoa.framework */; };
+		DE052D9813677B57001D5C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE052D9613677B57001D5C03 /* InfoPlist.strings */; };
+		DE052D9B13677B57001D5C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE052D9A13677B57001D5C03 /* main.m */; };
+		DE052D9E13677B57001D5C03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DE052D9C13677B57001D5C03 /* Credits.rtf */; };
+		DE052DA113677B57001D5C03 /* HERNicecastHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE052DA013677B57001D5C03 /* HERNicecastHelperAppDelegate.m */; };
+		DE052DA413677B57001D5C03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE052DA213677B57001D5C03 /* MainMenu.xib */; };
+		DE052DAB13677B57001D5C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE052D8D13677B57001D5C03 /* Cocoa.framework */; };
+		DE052DB313677B57001D5C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE052DB113677B57001D5C03 /* InfoPlist.strings */; };
+		DE052DB613677B57001D5C03 /* HERNicecastHelperTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DE052DB513677B57001D5C03 /* HERNicecastHelperTests.h */; };
+		DE052DB813677B57001D5C03 /* HERNicecastHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE052DB713677B57001D5C03 /* HERNicecastHelperTests.m */; };
+		DE685A2913DE019E00ABF113 /* icecast_title_ripper.rb in Resources */ = {isa = PBXBuildFile; fileRef = DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */; };
+		DE685A2A13DE019E00ABF113 /* icecaster.sh in Resources */ = {isa = PBXBuildFile; fileRef = DE685A2813DE019E00ABF113 /* icecaster.sh */; };
+		DE77178B13736B7E00DF098E /* trans-logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = DE77178A13736B7E00DF098E /* trans-logo.icns */; };
+		DEFCBC7513DD014D00D1AF65 /* KillController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBC7013DD014D00D1AF65 /* KillController.m */; };
+		DEFCBC7613DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBC7213DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.m */; };
+		DEFCBC7713DD014D00D1AF65 /* NSString+SeparatingIntoComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFCBC7413DD014D00D1AF65 /* NSString+SeparatingIntoComponents.m */; };
+		DEFCBC7B13DD04C500D1AF65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFCBC7913DD04C500D1AF65 /* Security.framework */; };
+		DEFCBC7C13DD04C500D1AF65 /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFCBC7A13DD04C500D1AF65 /* SecurityFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE052DAC13677B57001D5C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE052D8013677B57001D5C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE052D8813677B57001D5C03;
+			remoteInfo = HERNicecastHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE052D8913677B57001D5C03 /* HERNicecastHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HERNicecastHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE052D8D13677B57001D5C03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DE052D9013677B57001D5C03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DE052D9113677B57001D5C03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DE052D9213677B57001D5C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE052D9513677B57001D5C03 /* HERNicecastHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HERNicecastHelper-Info.plist"; sourceTree = "<group>"; };
+		DE052D9713677B57001D5C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE052D9913677B57001D5C03 /* HERNicecastHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HERNicecastHelper-Prefix.pch"; sourceTree = "<group>"; };
+		DE052D9A13677B57001D5C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE052D9D13677B57001D5C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DE052D9F13677B57001D5C03 /* HERNicecastHelperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HERNicecastHelperAppDelegate.h; sourceTree = "<group>"; };
+		DE052DA013677B57001D5C03 /* HERNicecastHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HERNicecastHelperAppDelegate.m; sourceTree = "<group>"; };
+		DE052DA313677B57001D5C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DE052DAA13677B57001D5C03 /* HERNicecastHelperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HERNicecastHelperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE052DB013677B57001D5C03 /* HERNicecastHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HERNicecastHelperTests-Info.plist"; sourceTree = "<group>"; };
+		DE052DB213677B57001D5C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE052DB413677B57001D5C03 /* HERNicecastHelperTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HERNicecastHelperTests-Prefix.pch"; sourceTree = "<group>"; };
+		DE052DB513677B57001D5C03 /* HERNicecastHelperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HERNicecastHelperTests.h; sourceTree = "<group>"; };
+		DE052DB713677B57001D5C03 /* HERNicecastHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HERNicecastHelperTests.m; sourceTree = "<group>"; };
+		DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = icecast_title_ripper.rb; path = scriptResources/icecast_title_ripper.rb; sourceTree = SOURCE_ROOT; };
+		DE685A2813DE019E00ABF113 /* icecaster.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = icecaster.sh; path = scriptResources/icecaster.sh; sourceTree = SOURCE_ROOT; };
+		DE77178A13736B7E00DF098E /* trans-logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "trans-logo.icns"; sourceTree = SOURCE_ROOT; };
+		DEFCBC6F13DD014D00D1AF65 /* KillController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KillController.h; path = ../../../Downloads/OpenFileKiller/KillController.h; sourceTree = "<group>"; };
+		DEFCBC7013DD014D00D1AF65 /* KillController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KillController.m; path = ../../../Downloads/OpenFileKiller/KillController.m; sourceTree = "<group>"; };
+		DEFCBC7113DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTask+OneLineTasksWithOutput.h"; path = "../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.h"; sourceTree = "<group>"; };
+		DEFCBC7213DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTask+OneLineTasksWithOutput.m"; path = "../../../Downloads/OpenFileKiller/NSTask+OneLineTasksWithOutput.m"; sourceTree = "<group>"; };
+		DEFCBC7313DD014D00D1AF65 /* NSString+SeparatingIntoComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SeparatingIntoComponents.h"; path = "../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.h"; sourceTree = "<group>"; };
+		DEFCBC7413DD014D00D1AF65 /* NSString+SeparatingIntoComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SeparatingIntoComponents.m"; path = "../../../Downloads/OpenFileKiller/NSString+SeparatingIntoComponents.m"; sourceTree = "<group>"; };
+		DEFCBC7913DD04C500D1AF65 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = ../../../../System/Library/Frameworks/Security.framework; sourceTree = "<group>"; };
+		DEFCBC7A13DD04C500D1AF65 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = ../../../../System/Library/Frameworks/SecurityFoundation.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE052D8613677B57001D5C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052D8E13677B57001D5C03 /* Cocoa.framework in Frameworks */,
+				DEFCBC7B13DD04C500D1AF65 /* Security.framework in Frameworks */,
+				DEFCBC7C13DD04C500D1AF65 /* SecurityFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE052DA613677B57001D5C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052DAB13677B57001D5C03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE052D7E13677B57001D5C03 = {
+			isa = PBXGroup;
+			children = (
+				DE052D9313677B57001D5C03 /* HERNicecastHelper */,
+				DE052DAE13677B57001D5C03 /* HERNicecastHelperTests */,
+				DE052D8C13677B57001D5C03 /* Frameworks */,
+				DE052D8A13677B57001D5C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE052D8A13677B57001D5C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE052D8913677B57001D5C03 /* HERNicecastHelper.app */,
+				DE052DAA13677B57001D5C03 /* HERNicecastHelperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE052D8C13677B57001D5C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCBC7913DD04C500D1AF65 /* Security.framework */,
+				DEFCBC7A13DD04C500D1AF65 /* SecurityFoundation.framework */,
+				DE052D8D13677B57001D5C03 /* Cocoa.framework */,
+				DE052D8F13677B57001D5C03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE052D8F13677B57001D5C03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE052D9013677B57001D5C03 /* AppKit.framework */,
+				DE052D9113677B57001D5C03 /* CoreData.framework */,
+				DE052D9213677B57001D5C03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DE052D9313677B57001D5C03 /* HERNicecastHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DE685A2513DE00E200ABF113 /* scriptResources */,
+				DEFCBC6F13DD014D00D1AF65 /* KillController.h */,
+				DEFCBC7013DD014D00D1AF65 /* KillController.m */,
+				DEFCBC7113DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.h */,
+				DEFCBC7213DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.m */,
+				DEFCBC7313DD014D00D1AF65 /* NSString+SeparatingIntoComponents.h */,
+				DEFCBC7413DD014D00D1AF65 /* NSString+SeparatingIntoComponents.m */,
+				DE77178A13736B7E00DF098E /* trans-logo.icns */,
+				DE052D9F13677B57001D5C03 /* HERNicecastHelperAppDelegate.h */,
+				DE052DA013677B57001D5C03 /* HERNicecastHelperAppDelegate.m */,
+				DE052DA213677B57001D5C03 /* MainMenu.xib */,
+				DE052D9413677B57001D5C03 /* Supporting Files */,
+			);
+			path = HERNicecastHelper;
+			sourceTree = "<group>";
+		};
+		DE052D9413677B57001D5C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE052D9513677B57001D5C03 /* HERNicecastHelper-Info.plist */,
+				DE052D9613677B57001D5C03 /* InfoPlist.strings */,
+				DE052D9913677B57001D5C03 /* HERNicecastHelper-Prefix.pch */,
+				DE052D9A13677B57001D5C03 /* main.m */,
+				DE052D9C13677B57001D5C03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE052DAE13677B57001D5C03 /* HERNicecastHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE052DB513677B57001D5C03 /* HERNicecastHelperTests.h */,
+				DE052DB713677B57001D5C03 /* HERNicecastHelperTests.m */,
+				DE052DAF13677B57001D5C03 /* Supporting Files */,
+			);
+			path = HERNicecastHelperTests;
+			sourceTree = "<group>";
+		};
+		DE052DAF13677B57001D5C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE052DB013677B57001D5C03 /* HERNicecastHelperTests-Info.plist */,
+				DE052DB113677B57001D5C03 /* InfoPlist.strings */,
+				DE052DB413677B57001D5C03 /* HERNicecastHelperTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE685A2513DE00E200ABF113 /* scriptResources */ = {
+			isa = PBXGroup;
+			children = (
+				DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */,
+				DE685A2813DE019E00ABF113 /* icecaster.sh */,
+			);
+			name = scriptResources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE052D8813677B57001D5C03 /* HERNicecastHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE052DBB13677B57001D5C03 /* Build configuration list for PBXNativeTarget "HERNicecastHelper" */;
+			buildPhases = (
+				DE052D8513677B57001D5C03 /* Sources */,
+				DE052D8613677B57001D5C03 /* Frameworks */,
+				DE052D8713677B57001D5C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HERNicecastHelper;
+			productName = HERNicecastHelper;
+			productReference = DE052D8913677B57001D5C03 /* HERNicecastHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE052DA913677B57001D5C03 /* HERNicecastHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE052DBE13677B57001D5C03 /* Build configuration list for PBXNativeTarget "HERNicecastHelperTests" */;
+			buildPhases = (
+				DE052DA513677B57001D5C03 /* Sources */,
+				DE052DA613677B57001D5C03 /* Frameworks */,
+				DE052DA713677B57001D5C03 /* Resources */,
+				DE052DA813677B57001D5C03 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE052DAD13677B57001D5C03 /* PBXTargetDependency */,
+			);
+			name = HERNicecastHelperTests;
+			productName = HERNicecastHelperTests;
+			productReference = DE052DAA13677B57001D5C03 /* HERNicecastHelperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE052D8013677B57001D5C03 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DE052D8313677B57001D5C03 /* Build configuration list for PBXProject "HERNicecastHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE052D7E13677B57001D5C03;
+			productRefGroup = DE052D8A13677B57001D5C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE052D8813677B57001D5C03 /* HERNicecastHelper */,
+				DE052DA913677B57001D5C03 /* HERNicecastHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE052D8713677B57001D5C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052D9813677B57001D5C03 /* InfoPlist.strings in Resources */,
+				DE052D9E13677B57001D5C03 /* Credits.rtf in Resources */,
+				DE052DA413677B57001D5C03 /* MainMenu.xib in Resources */,
+				DE77178B13736B7E00DF098E /* trans-logo.icns in Resources */,
+				DE685A2913DE019E00ABF113 /* icecast_title_ripper.rb in Resources */,
+				DE685A2A13DE019E00ABF113 /* icecaster.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE052DA713677B57001D5C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052DB313677B57001D5C03 /* InfoPlist.strings in Resources */,
+				DE052DB613677B57001D5C03 /* HERNicecastHelperTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE052DA813677B57001D5C03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE052D8513677B57001D5C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052D9B13677B57001D5C03 /* main.m in Sources */,
+				DE052DA113677B57001D5C03 /* HERNicecastHelperAppDelegate.m in Sources */,
+				DEFCBC7513DD014D00D1AF65 /* KillController.m in Sources */,
+				DEFCBC7613DD014D00D1AF65 /* NSTask+OneLineTasksWithOutput.m in Sources */,
+				DEFCBC7713DD014D00D1AF65 /* NSString+SeparatingIntoComponents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE052DA513677B57001D5C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE052DB813677B57001D5C03 /* HERNicecastHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE052DAD13677B57001D5C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE052D8813677B57001D5C03 /* HERNicecastHelper */;
+			targetProxy = DE052DAC13677B57001D5C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE052D9613677B57001D5C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE052D9713677B57001D5C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE052D9C13677B57001D5C03 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE052D9D13677B57001D5C03 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DE052DA213677B57001D5C03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE052DA313677B57001D5C03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DE052DB113677B57001D5C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE052DB213677B57001D5C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE052DB913677B57001D5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DE052DBA13677B57001D5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE052DBC13677B57001D5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HERNicecastHelper/HERNicecastHelper-Prefix.pch";
+				INFOPLIST_FILE = "HERNicecastHelper/HERNicecastHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE052DBD13677B57001D5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HERNicecastHelper/HERNicecastHelper-Prefix.pch";
+				INFOPLIST_FILE = "HERNicecastHelper/HERNicecastHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE052DBF13677B57001D5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HERNicecastHelperTests/HERNicecastHelperTests-Prefix.pch";
+				INFOPLIST_FILE = "HERNicecastHelperTests/HERNicecastHelperTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DE052DC013677B57001D5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HERNicecastHelper.app/Contents/MacOS/HERNicecastHelper";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HERNicecastHelperTests/HERNicecastHelperTests-Prefix.pch";
+				INFOPLIST_FILE = "HERNicecastHelperTests/HERNicecastHelperTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE052D8313677B57001D5C03 /* Build configuration list for PBXProject "HERNicecastHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE052DB913677B57001D5C03 /* Debug */,
+				DE052DBA13677B57001D5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE052DBB13677B57001D5C03 /* Build configuration list for PBXNativeTarget "HERNicecastHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE052DBC13677B57001D5C03 /* Debug */,
+				DE052DBD13677B57001D5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE052DBE13677B57001D5C03 /* Build configuration list for PBXNativeTarget "HERNicecastHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE052DBF13677B57001D5C03 /* Debug */,
+				DE052DC013677B57001D5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE052D8013677B57001D5C03 /* Project object */;
+}

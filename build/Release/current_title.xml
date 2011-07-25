@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+  <title/>
+  <creator/>
+  <trackList>
+    <track>
+      <location>http://localhost:8000/kuscaudio128.mp3</location>
+      <title>Cut 37550</title>
+      <annotation>Stream Title: KUSC-FM
+Stream Description: Classical KUSC Radio
+Content Type:audio/mpeg
+Bitrate: 128
+Current Listeners: 451
+Peak Listeners: 513
+Stream Genre: Classical</annotation>
+      <info>http://www.kusc.org</info>
+    </track>
+  </trackList>
+</playlist>
