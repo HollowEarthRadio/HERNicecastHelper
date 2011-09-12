@@ -3,11 +3,14 @@ require 'open-uri'
 require 'rexml/document'
 require 'rubygems'
 require 'hpricot'
- 
+
+#@@airtimeURL = @"http://192.168.0.44:8000/airtime.mp3"
+@@airtimeURL = "http://herhq.org:8000/airtime.mp3"
+
 class Ripper 
   
   def self.rip_one    
-        xspf = "http://915.kuscstream.org:8000/kuscaudio128.mp3.xspf"
+        xspf = @@airtimeURL
         open( xspf ) do |http|
           response = http.read
      
