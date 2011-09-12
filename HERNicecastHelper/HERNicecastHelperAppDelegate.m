@@ -19,6 +19,7 @@
 @synthesize offhoursTimer;
 @synthesize killController;
 @synthesize changeTitleButton;
+@synthesize placeholderCheckbox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -26,6 +27,8 @@
 	[self moveScripts];
 	[self.songTitle setTarget:self];
 	[self.songTitle setAction:@selector(submitButtonClicked:)];
+	usePlaceHolderFile = YES;
+	[self.placeholderCheckbox setState:NSOnState];
 }
 
 -(void)moveScripts {
@@ -119,15 +122,17 @@
 		[self writeToNowPlayingFile:[self.artistName stringValue] withTitle:[self.songTitle stringValue]];
 		[self startStopBroadcast];
 		
-		NSDictionary *scriptError = [[NSDictionary alloc] init]; 
-		
-		/* Create the Applescript to run with the filename and comment string... */ 
-		NSString *playPlaceholder = @"tell application \"iTunes\" to play track 1 of user playlist \"placeholder\"";
-		NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playPlaceholder]; 
-		
-		/* Run the script! */ 
-		if(![appleScript executeAndReturnError:&scriptError]) 
-			NSLog(@"%@",[scriptError description]); 
+		if (usePlaceHolderFile) {
+			NSDictionary *scriptError = [[NSDictionary alloc] init]; 
+			
+			/* Create the Applescript to run with the filename and comment string... */ 
+			NSString *playPlaceholder = @"tell application \"iTunes\" to play track 1 of user playlist \"placeholder\"";
+			NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playPlaceholder]; 
+			
+			/* Run the script! */ 
+			if(![appleScript executeAndReturnError:&scriptError]) 
+				NSLog(@"%@",[scriptError description]); 
+		}
 	}
 	else {
 		[self.offHoursTitlesButton setEnabled:YES];
@@ -153,6 +158,11 @@
               [NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/NowPlaying.txt",NSHomeDirectory()], [error localizedFailureReason]);
 	}
 }
+
+-(IBAction)usePlaceholderFile:(id)sender {
+	usePlaceHolderFile = !usePlaceHolderFile;
+}
+
 
 -(void)clearNowPlayingFile {
 	NSFileManager *filemgr;
