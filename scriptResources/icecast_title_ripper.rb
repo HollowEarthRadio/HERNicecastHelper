@@ -5,7 +5,7 @@ require 'rubygems'
 require 'hpricot'
 
 #@@airtimeURL = @"http://192.168.0.44:8000/airtime.mp3"
-@@airtimeURL = "http://herhq.org:8000/airtime.mp3"
+@@airtimeURL = "http://herhq.org:8000/airtime.mp3.xspf"
 
 class Ripper 
   

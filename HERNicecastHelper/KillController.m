@@ -34,7 +34,7 @@
 - (IBAction)updateProcesses:(id)sender
 {
 	if (self.timer == nil) {
-		self.timer = [NSTimer scheduledTimerWithTimeInterval:30 target:self selector:@selector(ripTitles) userInfo:nil repeats:YES];
+		self.timer = [NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(ripTitles) userInfo:nil repeats:YES];
 	}
 }
 
@@ -56,6 +56,7 @@
 - (IBAction)killProcess:(id)sender
 {
 	[self.timer invalidate];
+	self.timer = nil;
 }
 
 //

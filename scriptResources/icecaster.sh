@@ -1,2 +1,2 @@
 #!/bin/bash
-ruby /Users/boontdustie/scripts/icecast_title_ripper.rb
+ruby /Users/garrettkelly/Library/Application\ Support/Nicecast/icecast_title_ripper.rb

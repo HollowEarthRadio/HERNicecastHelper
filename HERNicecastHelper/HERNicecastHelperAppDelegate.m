@@ -148,7 +148,7 @@
 }
 
 -(void)createFileWithArtist:(NSString*)artist andSongTitle:(NSString*)song {
-	NSString *string = [NSString stringWithFormat:@"Title: %@\nArtist: %@\nAlbum: NOTUSED\nTime: 00:00  ", song, artist];
+	NSString *string = [NSString stringWithFormat:@"Title: %@\nArtist: %@", song, artist];
 	NSError *error;
 	BOOL ok = [string writeToFile:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/NowPlaying.txt",NSHomeDirectory()] atomically:YES
 						 encoding:NSUnicodeStringEncoding error:&error];
