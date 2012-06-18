@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D9E89D8150134B6005F6859 /* current_title.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E89D7150134B6005F6859 /* current_title.xml */; };
 		DE052D8E13677B57001D5C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE052D8D13677B57001D5C03 /* Cocoa.framework */; };
 		DE052D9813677B57001D5C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE052D9613677B57001D5C03 /* InfoPlist.strings */; };
 		DE052D9B13677B57001D5C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE052D9A13677B57001D5C03 /* main.m */; };
@@ -20,9 +21,7 @@
 		DE685A2913DE019E00ABF113 /* icecast_title_ripper.rb in Resources */ = {isa = PBXBuildFile; fileRef = DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */; };
 		DE685A2A13DE019E00ABF113 /* icecaster.sh in Resources */ = {isa = PBXBuildFile; fileRef = DE685A2813DE019E00ABF113 /* icecaster.sh */; };
 		DE77178B13736B7E00DF098E /* trans-logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = DE77178A13736B7E00DF098E /* trans-logo.icns */; };
-		DEC31148141E84BF00704BAA /* KillController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC31143141E84BF00704BAA /* KillController.m */; };
 		DEC31149141E84BF00704BAA /* NSString+SeparatingIntoComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC31145141E84BF00704BAA /* NSString+SeparatingIntoComponents.m */; };
-		DEC3114A141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC31147141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.m */; };
 		DEFCBC7B13DD04C500D1AF65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFCBC7913DD04C500D1AF65 /* Security.framework */; };
 		DEFCBC7C13DD04C500D1AF65 /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFCBC7A13DD04C500D1AF65 /* SecurityFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D9E89D7150134B6005F6859 /* current_title.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = current_title.xml; path = scriptResources/current_title.xml; sourceTree = SOURCE_ROOT; };
 		DE052D8913677B57001D5C03 /* HERNicecastHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HERNicecastHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE052D8D13677B57001D5C03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DE052D9013677B57001D5C03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,8 @@
 		DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = icecast_title_ripper.rb; path = scriptResources/icecast_title_ripper.rb; sourceTree = SOURCE_ROOT; };
 		DE685A2813DE019E00ABF113 /* icecaster.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = icecaster.sh; path = scriptResources/icecaster.sh; sourceTree = SOURCE_ROOT; };
 		DE77178A13736B7E00DF098E /* trans-logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "trans-logo.icns"; sourceTree = SOURCE_ROOT; };
-		DEC31142141E84BF00704BAA /* KillController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KillController.h; path = HERNicecastHelper/KillController.h; sourceTree = "<group>"; };
-		DEC31143141E84BF00704BAA /* KillController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KillController.m; path = HERNicecastHelper/KillController.m; sourceTree = "<group>"; };
 		DEC31144141E84BF00704BAA /* NSString+SeparatingIntoComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SeparatingIntoComponents.h"; path = "HERNicecastHelper/NSString+SeparatingIntoComponents.h"; sourceTree = "<group>"; };
 		DEC31145141E84BF00704BAA /* NSString+SeparatingIntoComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SeparatingIntoComponents.m"; path = "HERNicecastHelper/NSString+SeparatingIntoComponents.m"; sourceTree = "<group>"; };
-		DEC31146141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTask+OneLineTasksWithOutput.h"; path = "HERNicecastHelper/NSTask+OneLineTasksWithOutput.h"; sourceTree = "<group>"; };
-		DEC31147141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTask+OneLineTasksWithOutput.m"; path = "HERNicecastHelper/NSTask+OneLineTasksWithOutput.m"; sourceTree = "<group>"; };
 		DEFCBC7913DD04C500D1AF65 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = ../../../../System/Library/Frameworks/Security.framework; sourceTree = "<group>"; };
 		DEFCBC7A13DD04C500D1AF65 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = ../../../../System/Library/Frameworks/SecurityFoundation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,12 +91,8 @@
 		DE052D7E13677B57001D5C03 = {
 			isa = PBXGroup;
 			children = (
-				DEC31142141E84BF00704BAA /* KillController.h */,
-				DEC31143141E84BF00704BAA /* KillController.m */,
 				DEC31144141E84BF00704BAA /* NSString+SeparatingIntoComponents.h */,
 				DEC31145141E84BF00704BAA /* NSString+SeparatingIntoComponents.m */,
-				DEC31146141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.h */,
-				DEC31147141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.m */,
 				DE052D9313677B57001D5C03 /* HERNicecastHelper */,
 				DE052DAE13677B57001D5C03 /* HERNicecastHelperTests */,
 				DE052D8C13677B57001D5C03 /* Frameworks */,
@@ -186,6 +178,7 @@
 		DE685A2513DE00E200ABF113 /* scriptResources */ = {
 			isa = PBXGroup;
 			children = (
+				7D9E89D7150134B6005F6859 /* current_title.xml */,
 				DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */,
 				DE685A2813DE019E00ABF113 /* icecaster.sh */,
 			);
@@ -268,6 +261,7 @@
 				DE77178B13736B7E00DF098E /* trans-logo.icns in Resources */,
 				DE685A2913DE019E00ABF113 /* icecast_title_ripper.rb in Resources */,
 				DE685A2A13DE019E00ABF113 /* icecaster.sh in Resources */,
+				7D9E89D8150134B6005F6859 /* current_title.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +299,7 @@
 			files = (
 				DE052D9B13677B57001D5C03 /* main.m in Sources */,
 				DE052DA113677B57001D5C03 /* HERNicecastHelperAppDelegate.m in Sources */,
-				DEC31148141E84BF00704BAA /* KillController.m in Sources */,
 				DEC31149141E84BF00704BAA /* NSString+SeparatingIntoComponents.m in Sources */,
-				DEC3114A141E84BF00704BAA /* NSTask+OneLineTasksWithOutput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

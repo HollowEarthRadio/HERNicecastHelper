@@ -17,7 +17,6 @@
 @synthesize manualTitlesButton;
 @synthesize offHoursTitlesButton;
 @synthesize offhoursTimer;
-@synthesize killController;
 @synthesize changeTitleButton;
 @synthesize placeholderCheckbox;
 
@@ -35,11 +34,12 @@
 	
 	NSString *icecast_shell_script = [[NSBundle mainBundle] pathForResource:@"icecaster" ofType:@"sh"];
 	NSString *icecast_ruby_script = [[NSBundle mainBundle] pathForResource:@"icecast_title_ripper" ofType:@"rb"];
+	NSString *current_xml = [[NSBundle mainBundle] pathForResource:@"current_title" ofType:@"xml"];
 	
 	NSError *error;
 	[[NSFileManager defaultManager] copyItemAtPath:icecast_shell_script toPath:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/icecaster.sh", NSHomeDirectory()] error:&error ];
 	[[NSFileManager defaultManager] copyItemAtPath:icecast_ruby_script toPath:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/icecast_title_ripper.rb", NSHomeDirectory()] error:&error ];
-
+    [[NSFileManager defaultManager] copyItemAtPath:current_xml toPath:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/current_title.xml", NSHomeDirectory()] error:&error ];
 }
 
 -(void)startStopBroadcast {
@@ -61,14 +61,6 @@
 		NSLog(@"%@",[scriptError description]); 
 }
 
--(void) parseOffHoursTitles {
-	if (self.killController == nil) {
-		self.killController = [[KillController alloc] init];
-	}
-	
-	[self.killController updateProcesses:nil];
-}
-
 
 -(IBAction)useOffHoursButtonClicked:(id)sender {
 	NSLog(@"Off hours track titles button clicked");
@@ -82,8 +74,7 @@
 		[self.changeTitleButton setEnabled:NO];
 		[self.manualTitlesButton setEnabled:NO];
 		
-
-		NSDictionary *scriptError = [[NSDictionary alloc] init]; 
+        NSDictionary *scriptError = [[NSDictionary alloc] init]; 
 		
 		/* Create the Applescript to run with the filename and comment string... */ 
 		NSString *playOffHours = @"tell application \"iTunes\" to play track 1 of user playlist \"off hours\"";
@@ -91,21 +82,20 @@
 		
 		/* Run the script! */ 
 		if(![appleScript executeAndReturnError:&scriptError]) 
-			NSLog(@"%@",[scriptError description]); 
+      NSLog(@"%@",[scriptError description]); 
 
-		
-		[self parseOffHoursTitles];
-		[self writeToNowPlayingFile:[self.artistName stringValue] withTitle:[self.songTitle stringValue]];
-		[self startStopBroadcast];
+    [self writeToNowPlayingFile:@"Switching..." withTitle:@"the Broadcast..."];
+    [self writeUseOffHoursFile];
+    [self startStopBroadcast];
 	}
 	else {
 		[self.offHoursTitlesButton setTitle:@"Switch To Off Hours"];
-		[self.killController	killProcess:nil];
 		[self.manualTitlesButton setEnabled:YES];
 		[self.artistName setEnabled:YES];
 		[self.songTitle setEnabled:YES];
 		[self.changeTitleButton setEnabled:YES];
-		
+            
+    [self clearOffHoursFile];
 		[self clearNowPlayingFile];
 		[self startStopBroadcast];
 	}
@@ -126,12 +116,12 @@
 			NSDictionary *scriptError = [[NSDictionary alloc] init]; 
 			
 			/* Create the Applescript to run with the filename and comment string... */ 
-			NSString *playPlaceholder = @"tell application \"iTunes\" to play track 1 of user playlist \"placeholder\"";
-			NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playPlaceholder]; 
+			//NSString *playPlaceholder = @"tell application \"iTunes\" to play track 1 of user playlist \"placeholder\"";
+			//NSAppleScript *appleScript = [[NSAppleScript alloc] initWithSource:playPlaceholder]; 
 			
 			/* Run the script! */ 
-			if(![appleScript executeAndReturnError:&scriptError]) 
-				NSLog(@"%@",[scriptError description]); 
+			//if(![appleScript executeAndReturnError:&scriptError]) 
+			//	NSLog(@"%@",[scriptError description]); 
 		}
 	}
 	else {
@@ -186,5 +176,41 @@
 	}
     [self createFileWithArtist:artist andSongTitle:song];
 }
+
+//Get rid of the off hours file so we won't use off hours titles anymore.
+-(void)clearOffHoursFile {
+	NSFileManager *filemgr;
+	
+	filemgr = [NSFileManager defaultManager];
+	
+	if ([filemgr removeItemAtPath:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/use_off_hours.txt",NSHomeDirectory()] error: NULL]  == YES)
+        NSLog (@"Remove successful");
+	else
+        NSLog (@"Remove failed");
+}
+
+//This create a file in the Nicecast directory that we will use to see if we can use off hours 
+//It's presence will tell our ruby script to go ahead and use off hours. (cron is always runnning and pulling 
+//titles from the off hours service
+-(void)writeUseOffHoursFile {
+	
+	NSFileManager *filemgr;
+	
+	filemgr = [NSFileManager defaultManager];
+	
+	if ([filemgr fileExistsAtPath:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/use_off_hours.txt",NSHomeDirectory()] ] == YES) {
+		[self clearNowPlayingFile];
+	}
+
+  NSError *error;
+  BOOL ok = [@"Using Off Hours Titles" writeToFile:[NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/use_off_hours.txt",NSHomeDirectory()] atomically:YES
+                       encoding:NSUnicodeStringEncoding error:&error];
+	if (!ok) {
+		// an error occurred
+		NSLog(@"Error writing file at %@\n%@",
+          [NSString stringWithFormat:@"%@/Library/Application Support/Nicecast/use_off_hours.txt",NSHomeDirectory()], [error localizedFailureReason]);
+	}
+}
+
 
 @end

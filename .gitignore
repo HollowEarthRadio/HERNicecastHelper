@@ -3,7 +3,7 @@
 *~.nib
 
 build/*
-
+*.xcuserdatad
 *.pbxuser
 *.perspective
 *.perspectivev3

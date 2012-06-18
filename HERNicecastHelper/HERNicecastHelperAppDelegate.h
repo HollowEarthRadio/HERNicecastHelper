@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "KillController.h"
 @interface HERNicecastHelperAppDelegate : NSObject <NSApplicationDelegate> {
 @private
 	NSWindow *window;
@@ -24,7 +23,6 @@
 	BOOL offhoursButtonOn;
 	BOOL usePlaceHolderFile;
 	
-	KillController *killController;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -36,7 +34,6 @@
 @property (nonatomic, retain) IBOutlet NSButton *offHoursTitlesButton;
 @property (nonatomic, retain) IBOutlet NSTimer *offhoursTimer;
 @property (nonatomic, retain) IBOutlet NSButton *changeTitleButton;
-@property (nonatomic, retain) KillController *killController;
 @property (nonatomic, retain) IBOutlet NSButton *placeholderCheckbox;
 
 -(IBAction)useManualTitlesButtonClicked:(id)sender;
@@ -51,4 +48,6 @@
 -(void)startStopBroadcast;
 -(void)moveScripts;
 
+-(void)writeUseOffHoursFile;
+-(void)clearOffHoursFile;
 @end
