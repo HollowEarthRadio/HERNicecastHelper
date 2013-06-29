@@ -4,13 +4,15 @@ require 'rexml/document'
 require 'rubygems'
 require 'hpricot'
 
-@@airtimeURL = "http://192.168.0.44:8000/airtime.mp3.xspf"
+
+@@airtimeURL = "http://hollowearth.out.airtime.pro:8000/hollowearth_a.xspf"
+#@@airtimeURL = "http://192.168.0.44:8000/airtime.mp3.xspf"
 #@@airtimeURL = "http://herhq.org:8000/airtime.mp3.xspf"
 
 class Ripper 
   
   def self.rip_one    
-    if (File.exists?("Users/garrettkelly/Library/Application\ Support/Nicecast/use_off_hours.txt")) 
+    if (File.exists?("/Users/garrettkelly/Library/Application\ Support/Nicecast/use_off_hours.txt")) 
         p "The Off Hours File exists! Ripping off hours titles!!!!"
         xspf = @@airtimeURL
         open( xspf ) do |http|
