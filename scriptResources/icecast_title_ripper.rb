@@ -13,6 +13,7 @@ class Ripper
   
   def self.rip_one    
     if (File.exists?("/Users/garrettkelly/Library/Application\ Support/Nicecast/use_off_hours.txt")) 
+	IO.popen("osascript -e 'tell application \"iTunes\" to play track 1 of user playlist \"off hours\"' ", "w+")
         p "The Off Hours File exists! Ripping off hours titles!!!!"
         xspf = @@airtimeURL
         open( xspf ) do |http|
