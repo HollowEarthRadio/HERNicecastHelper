@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D9E89D8150134B6005F6859 /* current_title.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E89D7150134B6005F6859 /* current_title.xml */; };
+		7DF4783317D40E9C00A63CCC /* itunes_song_ripper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7DF4783217D40E9C00A63CCC /* itunes_song_ripper.rb */; };
+		7DF4783717D415EC00A63CCC /* itunes_ripper.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7DF4783617D415EC00A63CCC /* itunes_ripper.sh */; };
 		DE052D8E13677B57001D5C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE052D8D13677B57001D5C03 /* Cocoa.framework */; };
 		DE052D9813677B57001D5C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE052D9613677B57001D5C03 /* InfoPlist.strings */; };
 		DE052D9B13677B57001D5C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE052D9A13677B57001D5C03 /* main.m */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		7D9E89D7150134B6005F6859 /* current_title.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = current_title.xml; path = scriptResources/current_title.xml; sourceTree = SOURCE_ROOT; };
+		7DF4783217D40E9C00A63CCC /* itunes_song_ripper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = itunes_song_ripper.rb; sourceTree = "<group>"; };
+		7DF4783617D415EC00A63CCC /* itunes_ripper.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = itunes_ripper.sh; sourceTree = "<group>"; };
 		DE052D8913677B57001D5C03 /* HERNicecastHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HERNicecastHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE052D8D13677B57001D5C03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DE052D9013677B57001D5C03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -181,6 +185,8 @@
 				7D9E89D7150134B6005F6859 /* current_title.xml */,
 				DE685A2713DE019E00ABF113 /* icecast_title_ripper.rb */,
 				DE685A2813DE019E00ABF113 /* icecaster.sh */,
+				7DF4783217D40E9C00A63CCC /* itunes_song_ripper.rb */,
+				7DF4783617D415EC00A63CCC /* itunes_ripper.sh */,
 			);
 			name = scriptResources;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 				DE685A2913DE019E00ABF113 /* icecast_title_ripper.rb in Resources */,
 				DE685A2A13DE019E00ABF113 /* icecaster.sh in Resources */,
 				7D9E89D8150134B6005F6859 /* current_title.xml in Resources */,
+				7DF4783317D40E9C00A63CCC /* itunes_song_ripper.rb in Resources */,
+				7DF4783717D415EC00A63CCC /* itunes_ripper.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

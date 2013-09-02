@@ -50,4 +50,10 @@
 
 -(void)writeUseOffHoursFile;
 -(void)clearOffHoursFile;
+
+-(void)cleariTunesFile;
+-(void)writeiTunesFile;
+
+-(void)clearFile:(NSString*)filename;
+-(void)writeFile:(NSString*)filename;
 @end
